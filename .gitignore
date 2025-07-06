@@ -1,0 +1,40 @@
+# IDE specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+bin/
+*.sw?
+*.swo
+
+# Build output
+target/
+build/
+out/
+dist/
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log
+logs/
+
+# Environment files - EXCLUDE THESE!
+application.properties
+application.yml
+application-*.properties
+application-*.yml
+*.env
+
+# Dependency directories
+.gradle/
+node_modules/
+
+# Others
+*.class
+*.factorypath
+.DS_Store
